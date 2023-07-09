@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+    <!--fontawesome link pasted here-->
+    <script
+      src="https://kit.fontawesome.com/691d3ab680.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>MY MUSIC PLAYER</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <header id="header">
+        <!--logo-->
+        <div id="logo">
+          <image src="music.jpeg" alt="NOT PASTED(28)" />
+          <p><h2 class="white">Your Favourites</h2></p>
+        </div>
+        <!--to go to second page-->
+       <!---- <div id="second">
+          <a href="secondpage.html">Visit Second Page</a>
+        </div>>
+        <!--for searching music-->
+        <div id="search_music">
+          <i id="lens" class="fa-solid fa-magnifying-glass"></i>
+          <input id="input" placeholder="Search" type="search" />
+          <i id="mic" class="fa-solid fa-microphone"></i>
+        </div>
+        <!--for notifications-->
+        <div id="notifications">
+          <i id="bell" class="fa-solid fa-bell"></i>
+          <i id="dot" class="fa-solid fa-circle"></i>
+          <img src="profile.jpeg" alt="image link not pasted" />
+        </div>
+      </header>
+
+      <!--starting -->
+      <div id="container-2">
+        <main>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="bm.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="dollarw.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="excusesi.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          <!--that's it for carousels-->
+          <h4 class="wh">latest release</h4>
+          <div id="latest">
+            <div class="leftbox">
+              <div class="left">
+                <img src="laden.jpeg" alt="error" />
+
+                <div class="TEXT">
+                  <p class="wh">LADEN</p>
+                  <p class="grey">AUG 2011</p>
+                </div>
+                <!-- bootstrap button start -->
+                <div class="drop_button">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">PLay Now</a></li>
+                      <li><a class="dropdown-item" href="#">Add to queue</a></li>
+                      <li><a class="dropdown-item" href="#">Add to favourites</a></li>
+                    </ul>
+                  </div>
+                  <!--ending of buttons-->
+                  <p class="grey">5.16</p>
+                </div>
+                
+              <!--bottom left box-->
+              <div class="left">
+                <img src="3peg.jpeg" alt="error" />
+                <div class="TEXT">
+                  <p class="wh">3 peg</p>
+                  <p class="grey">Unknown</p>
+                </div>
+                <div class="drop_button">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">PLay Now</a></li>
+                      <li><a class="dropdown-item" href="#">Add to queue</a></li>
+                      <li><a class="dropdown-item" href="#">Add to favourites</a></li>
+                    </ul>
+                  </div>
+                  
+                  <!-- bootstrap button end -->
+                  <p class="grey">3.14</p>
+            </div>
+            </div>
+
+          
+
+
+            <!--right column -->
+            <div class="leftbox">
+              <div class="left">
+                <img src="wer.jpeg" alt="ruko thoda.." />
+                <div class="TEXT">
+                  <p class="white">We rollin</p>
+                  <p class="grey">Shubh</p>
+                </div>
+                <div class="drop_button">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">PLay Now</a></li>
+                      <li><a class="dropdown-item" href="#">Add to queue</a></li>
+                      <li><a class="dropdown-item" href="#">Add to favourites</a></li>
+                    </ul>
+                  </div>
+                  <!-- bootstrap button ends here -->
+                  <p class="grey">4.00</p>
+              </div>
+
+              <div class="left">
+                <img src="guitarsikhda.jpeg" alt="error" />
+                <div class="TEXT">
+                  <p class="wh">Guitar Sikhda</p>
+                  <p class="grey">Jassie Gill</p>
+                </div>
+                <div class="drop_button">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">PLay Now</a></li>
+                      <li><a class="dropdown-item" href="#">Add to queue</a></li>
+                      <li><a class="dropdown-item" href="#">Add to favourites</a></li>
+                    </ul>
+                  </div>
+  
+
+                  
+                  <p class="grey">5.00</p>
+            </div>
+
+          </div>
+          </div>
+            
+              
+          <h4 class="white">Popular Artists</h4>
+          <div id="popular-artist">
+            <div class="artist-img">
+              <a href="Single_Playlist_Screen.html"
+                ><img src="jg.jpeg" alt="Error" />
+                <i class="white play fa-solid fa-play"></i>
+              </a>
+              <p class="white">Jassi GILL</p>
+            </div>
+            <div class="artist-img">
+              <a href="Single_Playlist_Screen.html"
+                ><img src="dj.jpeg" alt="Error" /><i
+                  class="white play fa-solid fa-play"
+                ></i
+              ></a>
+              <p class="white">Diljit Dosanjh</p>
+            </div>
+            <div class="artist-img">
+              <a href="Single_Playlist_Screen.html"
+                ><img src="jass manak.jpeg" alt="Error" /><i
+                  class="white play fa-solid fa-play"
+                ></i
+              ></a>
+              <p class="white">Jass Manak</p>
+            </div>
+            <div class="artist-img">
+              <a href="Single_Playlist_Screen.html"
+                ><img src="kac.jpeg" alt="Error" /><i
+                  class="white play fa-solid fa-play"
+                ></i
+              ></a>
+              <p class="white">KHASA AALA CHAHAR</p>
+            </div>
+            <div class="artist-img">
+              <a href="Single_Playlist_Screen.html"
+                ><img src="jass manak.jpeg" alt="Error" /><i
+                  class="white play fa-solid fa-play"
+                ></i
+              ></a>
+              <p class="white">Jass Manak</p>
+            </div>
+            <div class="artist-img">
+              <a href="Single_Playlist_Screen.html"
+                ><img src="akhil.jpeg" alt="Error" /><i
+                  class="white play fa-solid fa-play"
+                ></i
+              ></a>
+              <p class="white">AKHIL</p>
+            </div>
+          </div>
+          <!--MUSIC BY TYPE-->
+          <div id="Type-artist">
+            <div class="type-img">
+              <img id="sq" src="type_1.png" alt="Error" />
+            </div>
+            <div class="type-img">
+              <p class="blur">Work</p>
+              <img src="t2.jpg" alt="Error" />
+            </div>
+            <div class="type-img">
+              <p class="blur">Rock</p>
+              <img src="t3.jpg" alt="Error" />
+            </div>
+            <div class="type-img">
+              <p class="blur">Chill</p>
+              <img src="t4.jpg" alt="Error" />
+            </div>
+            <div class="type-img">
+              <p class="blur">Love</p>
+              <img src="t5.jpg" alt="Error" />
+            </div>
+            <div class="type-img">
+              <p class="blur">Pop</p>
+              <img src="t6.jpg" alt="Error" />
+            </div>
+            <div class="type-img">
+              <p class="blur">Retro</p>
+              <img src="t7.png" alt="Error" />
+            </div>
+          </div>
+
+          <h4 class="white">Latest Hindi</h4>
+          <div id="latest-hindi">
+            <div class="song-img">
+              <img src="filhaal2.jpeg" alt="Error" />
+              <p class="white">FILHAAL 2</p>
+              <p class="white">JAN 06,2023</p>
+            </div>
+            <div class="song-img">
+              <img src="raatanlambiyan.jpeg" alt="Error" />
+              <p class="white">Raatan Lambiyan</p>
+              <p class="white">JAN 06,2023</p>
+            </div>
+            <div class="song-img">
+              <img src="lutgaye.jpeg" alt="Error" />
+              <p class="white">Lut Gaye</p>
+              <p class="white">JAN 06,2023</p>
+            </div>
+            <div class="song-img">
+              <img src="ashiquisong.jpeg" alt="Error" />
+              <p class="white">Tum Hi Ho</p>
+              <p class="white">JAN 06,2023</p>
+            </div>
+            <div class="song-img">
+              <img src="barsatkidhun.jpeg" alt="Error" />
+              <p class="white">Barsaat Ki Dhun</p>
+              <p class="white">JAN 06,2023</p>
+            </div>
+          </div>
+
+          <!-- latest english -->
+          <h4 class="white">Latest English</h4>
+          <div id="latest-hindi">
+            <div class="song-img">
+              <img src="depacito.jpeg" alt="Error" />
+              <p class="white">Despacito</p>
+              <p class="white">JAN 06,2023</p>
+            </div>
+            <div class="song-img">
+              <img src="lmlu.jpeg" alt="Error" />
+              <p class="white">Let me love you</p>
+              <p class="white">JAN 06,2023</p>
+            </div>
+            <div class="song-img">
+              <img src="alone.jpeg" alt="Error" />
+              <p class="white">Alone</p>
+              <p class="white">JAN 06,2023</p>
+            </div>
+            <div class="song-img">
+              <img src="faded.jpeg" alt="Error" />
+              <p class="white">Faded</p>
+              <p class="white">JAN 06,2023</p>
+            </div>
+            <div class="song-img">
+              <img src="unstoppable.jpeg" alt="Error" />
+              <p class="white">Unstoppable</p>
+              <p class="white">JAN 06,2023</p>
+            </div>
+          </div>
+        </main>
+        <aside>
+          <div id="top_section">
+            <h5 class="white">Queue</h5>
+            <div class="drop_button">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Playlist</a></li>
+                  <li><a class="dropdown-item" href="#">Favourites</a></li>
+              
+                </ul>
+              </div>
+          </div>
+
+          <div id="aside-queue">
+            <div class="list-song">
+              <p class="grey">01</p>
+              <img src="im1.jpeg" alt="Error" />
+              <div>
+                <p class="white">Mirage</p>
+                <p class="grey">Else</p>
+              </div>
+              <i class="heartred fa-solid fa-heart"></i>
+            </div>
+            <div class="list-song">
+              <p class="grey">02</p>
+              <img src="im11.jpeg" alt="Error" />
+              <div>
+                <p class="white">Worry Bout Us</p>
+                <p class="grey">Rosie Lobe</p>
+              </div>
+              <i class="heartred fa-solid fa-heart"></i>
+            </div>
+            <div class="list-song">
+              <p class="grey">03</p>
+              <img src="im2.jpeg" alt="Error" />
+              <div>
+                <p class="white">New Skin</p>
+                <p class="grey">Flume</p>
+              </div>
+              <i class="heartred fa-solid fa-heart"></i>
+            </div>
+            <div class="list-song">
+              <p class="grey">04</p>
+              <img src="im3.jpeg" alt="Error" />
+              <div>
+                <p class="white">Orism</p>
+                <p class="grey">Dua Lipa</p>
+              </div>
+              <i class="im4"></i>
+            </div>
+            <div class="list-song">
+              <p class="grey">05</p>
+              <img src="im5.jpeg" alt="Error" />
+              <div>
+                <p class="white">Sorry</p>
+                <p class="grey">Justin Bieber</p>
+              </div>
+              <i class="heartred fa-solid fa-heart"></i>
+            </div>
+            <div class="list-song">
+              <p class="grey">06</p>
+              <img src="im6.jpeg" alt="Error" />
+              <div>
+                <p class="white">Kis Me More</p>
+                <p class="grey">Doja Cat</p>
+              </div>
+              <i class="heartred fa-solid fa-heart"></i>
+            </div>
+            <div class="list-song">
+              <p class="grey">07</p>
+              <img src="im7.jpeg" alt="Error" />
+              <div>
+                <p class="white">Peaches</p>
+                <p class="grey">Maroon Five</p>
+              </div>
+              <i class="heartred fa-solid fa-heart"></i>
+            </div>
+            <div class="list-song">
+              <p class="grey">08</p>
+              <img src="im8.jpeg" alt="Error" />
+              <div>
+                <p class="white">Seven Rings</p>
+                <p class="grey">Ariana Grande</p>
+              </div>
+              <i class="heartred fa-solid fa-heart"></i>
+            </div>
+            <div class="list-song">
+              <p class="grey">09</p>
+              <img src="im9.jpeg" alt="Error" />
+              <div>
+                <p class="white">Attention</p>
+                <p class="grey">Charlie Puth</p>
+              </div>
+              <i class="heartred fa-solid fa-heart"></i>
+            </div>
+            <div class="list-song">
+              <p class="grey">10</p>
+              <img src="im10.jpeg" alt="Error" />
+              <div>
+                <p class="white">Sugar</p>
+                <p class="grey">Olivia</p>
+              </div>
+              <i class="heartred fa-solid fa-heart"></i>
+            </div>
+            <div class="list-song">
+              <p class="grey">01</p>
+              <img src="im11.jpeg" alt="Error" />
+              <div>
+                <p class="white">Mirage</p>
+                <p class="grey">Else</p>
+              </div>
+              <i class="heartred fa-solid fa-heart"></i>
+            </div>
+            <div class="list-song">
+              <p class="grey">02</p>
+              <img src="im12.jpeg" alt="Error" />
+              <div>
+                <p class="white">Worry Bout Us</p>
+                <p class="grey">Rosie Lobe</p>
+              </div>
+              <i class="heartred fa-solid fa-heart"></i>
+            </div>
+            <div class="list-song">
+              <p class="grey">03</p>
+              <img src="im13.jpeg" alt="Error" />
+              <div>
+                <p class="white">New Skin</p>
+                <p class="grey">Flume</p>
+              </div>
+              <i class="heartred fa-solid fa-heart"></i>
+            </div>
+            <div class="list-song">
+              <p class="grey">04</p>
+              <img src="im1.jpeg" alt="Error" />
+              <div>
+                <p class="white">Orism</p>
+                <p class="grey">Dua Lipa</p>
+              </div>
+              <i class="heartred fa-solid fa-heart"></i>
+            </div>
+            <div class="list-song">
+              <p class="grey">05</p>
+              <img src="im2.jpeg" alt="Error" />
+              <div>
+                <p class="white">Sorry</p>
+                <p class="grey">Justin Bieber</p>
+              </div>
+              <i class="heartred fa-solid fa-heart"></i>
+            </div>
+            <div class="list-song">
+              <p class="grey">06</p>
+              <img src="im3.jpeg" alt="Error" />
+              <div>
+                <p class="white">Kis Me More</p>
+                <p class="grey">Doja Cat</p>
+              </div>
+              <i class="heartred fa-solid fa-heart"></i>
+            </div>
+            <div class="list-song">
+              <p class="grey">07</p>
+              <img src="im4.jpeg" alt="Error" />
+              <div>
+                <p class="white">Peaches</p>
+                <p class="grey">Maroon Five</p>
+              </div>
+              <i class="heartred fa-solid fa-heart"></i>
+            </div>
+            <div class="list-song">
+              <p class="grey">08</p>
+              <img src="im5.jpeg" alt="Error" />
+              <div>
+                <p class="white">Seven Rings</p>
+                <p class="grey">Ariana Grande</p>
+              </div>
+              <i class="heartred fa-solid fa-heart"></i>
+            </div>
+            <div class="list-song">
+              <p class="grey">09</p>
+              <img src="im6.jpeg" alt="Error" />
+              <div>
+                <p class="white">Attention</p>
+                <p class="grey">Charlie Puth</p>
+              </div>
+              <i class="heartred fa-solid fa-heart"></i>
+            </div>
+            <div class="list-song">
+              <p class="grey">10</p>
+              <img src="im7.jpeg" alt="Error" />
+              <div>
+                <p class="white">Sugar</p>
+                <p class="grey">Olivia</p>
+              </div>
+              <i class="heartred fa-solid fa-heart"></i>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+
+      <!--play section-->
+      <div id="play-bar">
+        <div id="c1">
+          <img src="Asset_image/music logo.jpeg" alt="Error" />
+          <div>
+            <p class="white">Peaches</p>
+            <p class="grey">Justin Bieber</p>
+          </div>
+          <i class="heartgreen fa-solid fa-heart"></i>
+          <i class="white fa-solid fa-ban"></i>
+        </div>
+        <div id="c2">
+          <div id="play-pause">
+            <i class="white fa-solid fa-shuffle"></i>
+            <i class="white fa-solid fa-backward-step"></i>
+            <i class="white fa-regular fa-circle-pause"></i>
+            <i class="white fa-solid fa-forward-step"></i>
+            <i class="white fa-solid fa-repeat"></i>
+          </div>
+          <div id="BAR">
+            <div id="Bar1">
+              <p class="white">0:00</p>
+              <input id="barsize" type="range" value="30" />
+              <p class="white">4:44</p>
+            </div>
+          </div>
+        </div>
+        <div id="c3">
+          <i class="fa-solid fa-list"></i>
+          <i class="fa-solid fa-desktop"></i>
+          <i class="fa-solid fa-volume-high"></i>
+          <input type="range" value="35" />
+          <i class="fa-solid fa-expand"></i>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <!-- container close -->
+  </body>
+  <script
+  src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"
+></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+   crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+</html>
